@@ -40,7 +40,6 @@ function filter(list) {
 
 fs.readdir(path, function (err, list) {
     if (err)
-        return callback(err)
     filter(list)
     // console.log(returnlist)
 })

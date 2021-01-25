@@ -3,7 +3,7 @@
 
 
 
-function filter(list, extension, path) {
+function filter(list, extension, ) {
 
     returnlist = []
 

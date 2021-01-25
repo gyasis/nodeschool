@@ -5,7 +5,6 @@ var extension = process.argv[3]
 
 
 fs.readdir(path, function (err, list) {
-    
     mymodule.filter(list)
     // console.log(returnlist)
 })

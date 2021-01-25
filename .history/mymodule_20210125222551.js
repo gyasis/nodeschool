@@ -3,7 +3,7 @@
 
 
 
-function filter(list, extension, path) {
+function filter(list) {
 
     returnlist = []
 
@@ -19,8 +19,8 @@ function filter(list, extension, path) {
         }     
     })
 
-    // return returnlist;
+    return returnlist;
 }
 
 
-module.exports = (filter)
+module.exports = { filter }

@@ -3,7 +3,7 @@
 
 
 
-function filter(list, extension, path) {
+function filter(list) {
 
     returnlist = []
 
@@ -23,4 +23,4 @@ function filter(list, extension, path) {
 }
 
 
-module.exports = (filter)
+export default {filter}

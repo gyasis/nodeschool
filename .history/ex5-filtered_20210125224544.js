@@ -39,8 +39,7 @@ function filter(list) {
 
 
 fs.readdir(path, function (err, list) {
-    if (err)
-        return callback(err)
+    if
     filter(list)
     // console.log(returnlist)
 })
